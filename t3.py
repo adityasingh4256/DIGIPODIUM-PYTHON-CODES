@@ -1,10 +1,10 @@
 from turtle import *
-side = 10
+side = 8
 for i in range(side):
     pencolor('red')
     fd(100)
     lt(360/side)
-    pencolor('pink')
-    dot(30)
+    pencolor('red')
+    circle(20)
 
 mainloop()  
