@@ -4,7 +4,7 @@ pencolor('orange')
 fillcolor('red')
 pensize(2)
 dot(10)
-side = 6
+side = 4
 for i in range(side):
     fd(-50)
     begin_fill()
